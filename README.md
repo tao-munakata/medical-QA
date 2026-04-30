@@ -2,6 +2,8 @@
 
 nyanta-medical 問診UI 改善・自動検査
 
+問診票で、スマホでも入力しやすく、アクセシビリティ検査まで自動化できるようにした改善版です。
+
 対象: https://manualine.tech/nyanta/medical
 
 確認できた実ページ情報:
