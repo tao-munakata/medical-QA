@@ -1,0 +1,19 @@
+{
+  "name": "medical-qa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "test": "playwright test",
+    "test:a11y": "playwright test tests/a11y.spec.js",
+    "codex:check": "playwright test --reporter=line",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.52.0",
+    "vite": "^6.3.4"
+  }
+}
